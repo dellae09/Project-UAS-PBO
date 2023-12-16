@@ -178,73 +178,67 @@ elang.info_migrasi()
 ![Output](https://github.com/dellae09/Project-UAS-PBO/assets/150639048/8de1c644-e542-4c78-abed-05977e36facb)
 <h5 align="center"> Gambar Output  </h5> 
 
+| Kode                                       | Penjelasan                                                                                               |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Detail Migrasi Burung Kenari:**               |                                                                                                     |
+| **Data Lokasi 1:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120202     | Waktu terlacak lokasi 1                                                                                  |
+| - Lintang: -60.72062469287152              | Koordinat lintang lokasi 1                                                                               |
+| - Bujur: 39.41639078895179                 | Koordinat bujur lokasi 1                                                                                 |
+| - Kecepatan: 9.352884316138262 m/s         | Kecepatan pada lokasi 1                                                                                  |
+| **Data Lokasi 2:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120215     | Waktu terlacak lokasi 2                                                                                  |
+| - Lintang: 82.33416391213899              | Koordinat lintang lokasi 2                                                                                |
+| - Bujur: -10.284229301175287               | Koordinat bujur lokasi 2                                                                                 |
+| - Kecepatan: 9.352884316138262 m/s         | Kecepatan pada lokasi 2                                                                                  |
+| **Data Lokasi 3:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120220     | Waktu terlacak lokasi 3                                                                                  |
+| - Lintang: -37.742390698429844             | Koordinat lintang lokasi 3                                                                               |
+| - Bujur: 143.06626296485575               | Koordinat bujur lokasi 3                                                                                  |
+| - Kecepatan: 9.352884316138262 m/s         | Kecepatan pada lokasi 3                                                                                  |
+| **Data Lokasi 4:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120225     | Waktu terlacak lokasi 4                                                                                  |
+| - Lintang: 56.952050102899165              | Koordinat lintang lokasi 4                                                                               |
+| - Bujur: -24.90889131085578                | Koordinat bujur lokasi 4                                                                                 |
+| - Kecepatan: 9.352884316138262 m/s         | Kecepatan pada lokasi 4                                                                                  |
+| **Data Lokasi 5:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120230     | Waktu terlacak lokasi 5                                                                                  |
+| - Lintang: 11.981056892750743              | Koordinat lintang lokasi 5                                                                               |
+| - Bujur: -72.29659801884829                | Koordinat bujur lokasi 5                                                                                 |
+| - Kecepatan: 9.352884316138262 m/s         | Kecepatan pada lokasi 5                                                                                  |
+| **Detail Migrasi Burung Elang:**               |                                                                                                      |
+| **Data Lokasi 1:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120212     | Waktu terlacak lokasi 1                                                                                  |
+| - Lintang: -21.653472661317693             | Koordinat lintang lokasi 1                                                                               |
+| - Bujur: 164.0752065836174                | Koordinat bujur lokasi 1                                                                                  |
+| - Kecepatan: 6.395231733395626 m/s         | Kecepatan pada lokasi 1                                                                                  |
+| **Data Lokasi 2:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120218     | Waktu terlacak lokasi 2                                                                                  |
+| - Lintang: 64.31437804447896              | Koordinat lintang lokasi 2                                                                                |
+| - Bujur: -91.65467080600179               | Koordinat bujur lokasi 2                                                                                  |
+| - Kecepatan: 6.395231733395626 m/s         | Kecepatan pada lokasi 2                                                                                  |
+| **Data Lokasi 3:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120223     | Waktu terlacak lokasi 3                                                                                  |
+| - Lintang: 63.38029909727001              | Koordinat lintang lokasi 3                                                                                |
+| - Bujur: -67.31120148573126               | Koordinat bujur lokasi 3                                                                                  |
+| - Kecepatan: 6.395231733395626 m/s         | Kecepatan pada lokasi 3                                                                                  |
+| **Data Lokasi 4:**                             |                                                                                                      |
+| - Terlacak: 2023-12-14 14:35:34.120227     | Waktu terlacak lokasi 4                                                                                  |
+| - Lintang: -44.780549616579904             | Koordinat lintang lokasi 4                                                                               |
+| - Bujur: 159.80512620810566               | Koordinat bujur lokasi 4                                                                                  |
+| - Kecepatan: 6.395231733395626 m/s         | Kecepatan pada lokasi 4                                                                                  |
+|**Data Lokasi 5:**                             |                                                                                                       |
+| - Terlacak: 2023-12-14 14:35:34.120232     | Waktu terlacak lokasi 5                                                                                  |
+| - Lintang: 10.355233485485556              | Koordinat lintang lokasi 5                                                                               |
+| - Bujur: -113.24980300564681               | Koordinat bujur lokasi 5                                                                                 |
+| - Kecepatan: 6.395231733395626 m/s         | Kecepatan pada lokasi 5                                                                                  |
+
+
+
 </div>
 
-Output tersebut adalah hasil dari pemanggilan metode `info_migrasi` pada objek Kenari dan Elang setelah data lokasi ditambahkan melalui loop. Berikut ini kami jelaskan juga  setiap bagian dari output tersebut:
-
-### Detail Migrasi Burung Kenari:
-1. **Data Lokasi 1:**
-   - Terlacak: 2023-12-14 14:35:34.120202
-   - Lintang: -60.72062469287152
-   - Bujur: 39.41639078895179
-   - Kecepatan: 9.352884316138262 m/s
-
-2. **Data Lokasi 2:**
-   - Terlacak: 2023-12-14 14:35:34.120215
-   - Lintang: 82.33416391213899
-   - Bujur: -10.284229301175287
-   - Kecepatan: 9.352884316138262 m/s
-
-3. **Data Lokasi 3:**
-   - Terlacak: 2023-12-14 14:35:34.120220
-   - Lintang: -37.742390698429844
-   - Bujur: 143.06626296485575
-   - Kecepatan: 9.352884316138262 m/s
-
-4. **Data Lokasi 4:**
-   - Terlacak: 2023-12-14 14:35:34.120225
-   - Lintang: 56.952050102899165
-   - Bujur: -24.90889131085578
-   - Kecepatan: 9.352884316138262 m/s
-
-5. **Data Lokasi 5:**
-   - Terlacak: 2023-12-14 14:35:34.120230
-   - Lintang: 11.981056892750743
-   - Bujur: -72.29659801884829
-   - Kecepatan: 9.352884316138262 m/s
-
-### Detail Migrasi Burung Elang:
-1. **Data Lokasi 1:**
-   - Terlacak: 2023-12-14 14:35:34.120212
-   - Lintang: -21.653472661317693
-   - Bujur: 164.0752065836174
-   - Kecepatan: 6.395231733395626 m/s
-
-2. **Data Lokasi 2:**
-   - Terlacak: 2023-12-14 14:35:34.120218
-   - Lintang: 64.31437804447896
-   - Bujur: -91.65467080600179
-   - Kecepatan: 6.395231733395626 m/s
-
-3. **Data Lokasi 3:**
-   - Terlacak: 2023-12-14 14:35:34.120223
-   - Lintang: 63.38029909727001
-   - Bujur: -67.31120148573126
-   - Kecepatan: 6.395231733395626 m/s
-
-4. **Data Lokasi 4:**
-   - Terlacak: 2023-12-14 14:35:34.120227
-   - Lintang: -44.780549616579904
-   - Bujur: 159.80512620810566
-   - Kecepatan: 6.395231733395626 m/s
-
-5. **Data Lokasi 5:**
-   - Terlacak: 2023-12-14 14:35:34.120232
-   - Lintang: 10.355233485485556
-   - Bujur: -113.24980300564681
-   - Kecepatan: 6.395231733395626 m/s
-
 ### Penjelasan Output:
+Output tersebut adalah hasil dari pemanggilan metode `info_migrasi` pada objek Kenari dan Elang setelah data lokasi ditambahkan melalui loop. 
 - Setiap baris mewakili satu data lokasi yang mencakup informasi seperti waktu terlacak, lintang, bujur, dan kecepatan.
 - Objek Kenari dan Elang memiliki kecepatan yang sama untuk setiap data lokasi, karena kecepatan diinisialisasi saat objek dibuat.
 - Output ini memberikan informasi terstruktur mengenai pergerakan migrasi dari setiap burung selama waktu tertentu.
